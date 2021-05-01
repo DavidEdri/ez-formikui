@@ -32,9 +32,9 @@ export { changeText, setCaptchaKey };
 
 export type OtherComponent = OtherComponentProps;
 
-export type AfterDefaultSubmit = (
-  res?: AxiosResponse,
-  actions?: FormikHelpers<FormikValues>,
+export type AfterDefaultSubmit<T = any> = (
+  res: AxiosResponse<T>,
+  actions: FormikHelpers<FormikValues>,
 ) => void | Promise<any>;
 
 export type FormikSubmit = (
