@@ -110,7 +110,7 @@ export default config;
 
 #### captchaKey
 
-If you want to use captcha in your forms [register to get captcha key](http://www.google.com/recaptcha/admin) and [set up you're key](#config-setup)
+If you want to use captcha in your forms [register to get captcha key](http://www.google.com/recaptcha/admin) and [set up your key](#config-setup)
 
 #### text
 
